@@ -6,25 +6,31 @@
 
 *TERMINAL:* cd name-of-your-app
 
+
 **Open your project in Sublime**
 
 *TERMINAL:* subl .
+
 
 **Create your postgres database**
 
 *TERMINAL:* rails db:create
 
+
 **Run your Rails app**
 
 *TERMINAL:* rails server
 
+
 **Create a new terminal tab**
 *TERMINAL:* (command + T)
+
 
 **Create a controller**
 
 *TERMINAL:* rails generate controller NameOfYourController (plural)
 *Example:* rails generate controller Recipes
+
 
 **Create a model**
 
@@ -32,6 +38,7 @@
 *Example:* rails generate model Recipe title:string chef:string prep_time:integer
 
 *TERMINAL:* rails db:migrate 
+
 
 **Add items to the database**
 
@@ -42,6 +49,7 @@
   x.save
 (repeat as desired)
   exit
+
 
 **Add items to the database using the seeds.rb file (optional, but efficient)**
 
@@ -74,7 +82,9 @@ Add these lines to that file:
   add this line under the line that says //=require jquery: 
     //= require bootstrap-sprockets
 
+
 **Restart the Rails server**
+
 *TERMINAL:* (CONTROL + C)
 *TERMINAL:* rails server
 
