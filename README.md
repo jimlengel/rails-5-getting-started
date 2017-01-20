@@ -34,6 +34,7 @@
 #### Create a controller
 
 *TERMINAL:* rails generate controller NameOfYourController (plural)
+
 *Example:* **rails generate controller Recipes**
 
 
@@ -41,6 +42,7 @@
 #### Create a model
 
 *TERMINAL:* rails generate model ModelName attribute_1 attribute_2 attribute_3 ..etc... (singular model name)
+
 *Example:* **rails generate model Recipe title:string chef:string prep_time:integer**
 
 *TERMINAL:* **rails db:migrate**
