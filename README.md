@@ -4,7 +4,7 @@
 
 *TERMINAL:* rails new name-of-your-app --database=postgresql
 
-*TERMINAL:* cd name-of-your-app
+*TERMINAL:* **cd name-of-your-app**
 
  
 
@@ -16,13 +16,13 @@
 
 ### Create your postgres database
 
-*TERMINAL:* rails db:create
+*TERMINAL:* **rails db:create**
 
  
 
 ### Run your Rails app
 
-*TERMINAL:* rails server
+*TERMINAL:* **rails server**
 
  
 
@@ -34,22 +34,22 @@ Create a new terminal tab
 Create a controller
 
 *TERMINAL:* rails generate controller NameOfYourController (plural)
-*Example:* rails generate controller Recipes
+*Example:* **rails generate controller Recipes**
 
 
 
 Create a model
 
 *TERMINAL:* rails generate model ModelName attribute_1 attribute_2 attribute_3 ..etc... (singular model name)
-*Example:* rails generate model Recipe title:string chef:string prep_time:integer
+*Example:* **rails generate model Recipe title:string chef:string prep_time:integer**
 
-*TERMINAL:* rails db:migrate 
+*TERMINAL:* **rails db:migrate**
 
 
 
 Add items to the database
 
-*TERMINAL:* rails console
+*TERMINAL:* **rails console**
 
 *CONSOLE:*
   x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
@@ -66,7 +66,7 @@ Add items to the database using the seeds.rb file (optional, but efficient)
   x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
   x.save
 
-*TERMINAL:* rails db:seed
+*TERMINAL:* **rails db:seed**
 
 
 
@@ -79,7 +79,7 @@ to the list of gems
 
 EX: gem 'bootstrap-sass', '~> 3.3.6'
 
-*TERMINAL:* bundle install
+*TERMINAL:* **bundle install**
 
 *FILE:* app/assets/stylesheets
   create a new file called _external.css.scss
@@ -95,8 +95,8 @@ Add these lines to that file:
 
 Restart the Rails server
 
-*TERMINAL:* (CONTROL + C)
-*TERMINAL:* rails server
+*TERMINAL:* **(CONTROL + C)**
+*TERMINAL:* **rails server**
 
 
 
