@@ -6,30 +6,30 @@
 
 *TERMINAL:* cd name-of-your-app
 
-\s
+ 
 
 **Open your project in Sublime**
 
 *TERMINAL:* subl .
 
-\s
+ 
 
 **Create your postgres database**
 
 *TERMINAL:* rails db:create
 
-\s
+ 
 
 **Run your Rails app**
 
 *TERMINAL:* rails server
 
-\s
+ 
 
 **Create a new terminal tab**
 *TERMINAL:* (command + T)
 
-\s
+ 
 
 **Create a controller**
 
