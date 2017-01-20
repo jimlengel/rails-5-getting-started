@@ -31,14 +31,14 @@
 
  
 
-Create a controller
+#### Create a controller
 
 *TERMINAL:* rails generate controller NameOfYourController (plural)
 *Example:* **rails generate controller Recipes**
 
 
 
-Create a model
+#### Create a model
 
 *TERMINAL:* rails generate model ModelName attribute_1 attribute_2 attribute_3 ..etc... (singular model name)
 *Example:* **rails generate model Recipe title:string chef:string prep_time:integer**
@@ -47,7 +47,7 @@ Create a model
 
 
 
-Add items to the database
+#### Add items to the database
 
 *TERMINAL:* **rails console**
 
@@ -59,7 +59,7 @@ Add items to the database
 
 
 
-Add items to the database using the seeds.rb file (optional, but efficient)
+#### Add items to the database using the seeds.rb file (optional, but efficient)
 
 *FILE:* db/seeds.rb file
 
@@ -70,7 +70,7 @@ Add items to the database using the seeds.rb file (optional, but efficient)
 
 
 
-Add Bootstrap to your project
+#### Add Bootstrap to your project
 
 FILE: Gemfile
 Add
@@ -93,7 +93,7 @@ Add these lines to that file:
 
 
 
-Restart the Rails server
+#### Restart the Rails server
 
 *TERMINAL:* **(CONTROL + C)**
 *TERMINAL:* **rails server**
