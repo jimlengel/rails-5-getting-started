@@ -2,7 +2,7 @@
 
 ### Create a new Rails project
 
-*TERMINAL:* rails new name-of-your-app --database=postgresql
+*TERMINAL:* **rails new name-of-your-app --database=postgresql**
 
 *TERMINAL:* **cd name-of-your-app**
 
@@ -27,6 +27,7 @@
  
 
 #### Create a new terminal tab
+
 *TERMINAL:* (command + T)
 
  
@@ -102,9 +103,9 @@ Add these lines to that file:
 
 *FILE:* app/assets/javascripts/application.js
 
-  add this line under the line that says //=require jquery: 
+add this line under the line that says //=require jquery
 
-    //= require bootstrap-sprockets
+//= require bootstrap-sprockets
 
 
 
