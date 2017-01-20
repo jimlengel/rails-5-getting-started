@@ -26,7 +26,7 @@
 
  
 
-Create a new terminal tab
+#### Create a new terminal tab
 *TERMINAL:* (command + T)
 
  
