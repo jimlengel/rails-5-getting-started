@@ -54,7 +54,9 @@
 *TERMINAL:* **rails console**
 
 *CONSOLE:*
+
   x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
+
   x.save
 (repeat as desired)
   exit
@@ -66,6 +68,7 @@
 *FILE:* db/seeds.rb file
 
   x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
+
   x.save
 
 *TERMINAL:* **rails db:seed**
@@ -75,22 +78,32 @@
 #### Add Bootstrap to your project
 
 FILE: Gemfile
+
 Add
+
   gem 'bootstrap-sass'
+
 to the list of gems
 
 EX: gem 'bootstrap-sass', '~> 3.3.6'
 
+
 *TERMINAL:* **bundle install**
 
 *FILE:* app/assets/stylesheets
+
   create a new file called _external.css.scss
+
 Add these lines to that file:
+
   @import "bootstrap-sprockets";
+
   @import "bootstrap";
 
 *FILE:* app/assets/javascripts/application.js
+
   add this line under the line that says //=require jquery: 
+
     //= require bootstrap-sprockets
 
 
@@ -98,6 +111,7 @@ Add these lines to that file:
 #### Restart the Rails server
 
 *TERMINAL:* **(CONTROL + C)**
+
 *TERMINAL:* **rails server**
 
 
