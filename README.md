@@ -10,7 +10,7 @@
 
 ### Open your project in Sublime
 
-*TERMINAL:* subl .
+*TERMINAL:* **subl .**
 
  
 
