@@ -1,6 +1,6 @@
 # How To Create a New Rails 5 Project:
 
-**Create a new Rails project**
+### Create a new Rails project
 
 *TERMINAL:* rails new name-of-your-app --database=postgresql
 
@@ -8,7 +8,7 @@
 
  
 
-**Open your project in Sublime**
+### Open your project in Sublime
 
 *TERMINAL:* subl .
 
