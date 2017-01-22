@@ -28,7 +28,7 @@
 
 #### Create a new terminal tab
 
-*TERMINAL:* (command + T)
+*TERMINAL:* **(command + T)**
 
  
 
@@ -56,11 +56,13 @@
 
 *CONSOLE:*
 
-  x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
+    x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
 
-  x.save
+    x.save
+
 (repeat as desired)
-  exit
+
+    exit
 
 
 
@@ -68,9 +70,9 @@
 
 *FILE:* db/seeds.rb file
 
-  x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
+    x = ModelName.new({attribute_1: “some value”, attribute_2: “some value”})
 
-  x.save
+    x.save
 
 *TERMINAL:* **rails db:seed**
 
@@ -82,7 +84,7 @@ FILE: Gemfile
 
 Add
 
-  gem 'bootstrap-sass'
+    gem 'bootstrap-sass'
 
 to the list of gems
 
@@ -93,9 +95,9 @@ EX: gem 'bootstrap-sass', '~> 3.3.6'
 
 *FILE:* app/assets/stylesheets
 
-  create a new file called _external.css.scss
+**create a new file called _external.css.scss**
 
-Add these lines to that file:
+**Add these lines to that file:**
 
   @import "bootstrap-sprockets";
 
