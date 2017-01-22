@@ -99,9 +99,8 @@ EX: gem 'bootstrap-sass', '~> 3.3.6'
 
 **Add these lines to that file:**
 
-  @import "bootstrap-sprockets";
-
-  @import "bootstrap";
+    @import "bootstrap-sprockets";
+    @import "bootstrap";
 
 *FILE:* app/assets/javascripts/application.js
 
