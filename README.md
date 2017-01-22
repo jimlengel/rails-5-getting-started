@@ -106,7 +106,7 @@ EX: gem 'bootstrap-sass', '~> 3.3.6'
 
 add this line under the line that says //=require jquery
 
-//= require bootstrap-sprockets
+    //= require bootstrap-sprockets
 
 
 
