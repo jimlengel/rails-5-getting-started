@@ -1,5 +1,6 @@
-How to make a new Rails app [with examples](new_crud.md)
+[examples](examples.md)
 
+[short guide](short_guide.md)
 
   
 # How To Create a New Rails 5 Project:
