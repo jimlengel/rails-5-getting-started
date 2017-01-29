@@ -28,20 +28,20 @@ Book.create(name: “Johnson Brothers” “they were in a cabin.”)
 Book.all
 
 
-routes.rb
+#### routes.rb
 ```
 get ‘/‘ => 'books#index'
 get ‘/books‘ => 'books#index'
 ```
 
-books_controller.rb
+#### books_controller.rb
 ```
 def index
   @books = Book.all
 end
 ```
 
-index.html.erb
+#### index.html.erb
 ```   
 <%= @books.each do |book| %>
   <p><%= book.name %></p>
