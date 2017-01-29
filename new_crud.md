@@ -1,4 +1,6 @@
-# Super Short Guide to creating a new Rails app
+# Creating a new Rails app
+
+## Super Short Guide
 
 rails new crud_practice -database=postgresql
 
@@ -49,9 +51,11 @@ end
 ```
 
 
-# Routes
+# Examples
 
-### master/config/routes.rb
+### Routes
+
+#### master/config/routes.rb
 
 ```
 Rails.application.routes.draw do
@@ -66,9 +70,9 @@ Rails.application.routes.draw do
 end
 ```
 
-# Controller
+### Controller
 
-### app/controllers/contacts_controller.rb
+#### app/controllers/contacts_controller.rb
 
 ```
 class ContactsController < ApplicationController
@@ -125,9 +129,9 @@ class ContactsController < ApplicationController
 end
 ```
 
-# Views 
+### Views 
 
-### app/views/contacts/index.html.erb
+#### app/views/contacts/index.html.erb
 
 ```
 <h1>Your Contacts</h1>
@@ -140,7 +144,7 @@ end
 <% end %>
 ```
 
-### app/views/contacts/show.html.erb
+#### app/views/contacts/show.html.erb
 
 ```
 <h1><%= @contact.full_name %></h1>
@@ -155,7 +159,7 @@ end
 <%= link_to "Delete", "/contacts/#{@contact.id}", method: :delete, class: "btn btn-danger" %>
 ```
 
-### app/views/contacts/new.html.erb
+#### app/views/contacts/new.html.erb
 
 ```
 <h1>New Contact</h1>
@@ -204,7 +208,7 @@ end
 <% end %>
 ```
 
-### app/views/contacts/edit.html.erb
+#### app/views/contacts/edit.html.erb
 ```
 <h1>Edit Contact</h1>
 <%= form_tag "/contacts/#{@contact.id}", method: :patch do %>
@@ -238,9 +242,9 @@ end
 <% end %>
 ```
 
-# Layouts
+### Layouts
 
-### app/views/layouts/application.html.erb
+#### app/views/layouts/application.html.erb
 
 ```
     <div class="container">  
@@ -258,9 +262,9 @@ end
     </div>
 ```
 
-# Models
+### Models
 
-### app/models/contact.rb
+#### app/models/contact.rb
 
 ```
 class Contact < ApplicationRecord
