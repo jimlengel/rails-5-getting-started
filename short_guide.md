@@ -45,7 +45,7 @@ end
 
 #### index.html.erb
 ```   
-<%= @books.each do |book| %>
+<% @books.each do |book| %>
   <p><%= book.name %></p>
 <% end %>
 ```
