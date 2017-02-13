@@ -2,7 +2,7 @@
 
 ## Super Short Guide
 
-rails new crud_practice -database=postgresql
+`rails new crud_practice --database=postgresql`
 
 cd crud_practice
 
