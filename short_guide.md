@@ -4,30 +4,30 @@
 
 `rails new crud_practice --database=postgresql`
 
-cd crud_practice
+`cd crud_practice`
 
-rake db:create
+`rake db:create`
 
-rails g controller books
+`rails g controller books`
 
-rails g model Book name description
+`rails g model Book name description`
 
-rake db:migrate
+`rake db:migrate`
 
-subl .
+`subl .`
 
-rails s
+`rails s`
 
 
-localhost:3030
+`localhost:3030`
 
-rails c
+`rails c`
 
-Book.create(name: “Mighty Joe Young”, “monkeys do the darnedest things.”)
+`Book.create(name: “Mighty Joe Young”, “monkeys do the darnedest things.”)`
 
-Book.create(name: “Johnson Brothers” “they were in a cabin.”)
+`Book.create(name: “Johnson Brothers” “they were in a cabin.”)`
 
-Book.all
+`Book.all`
 
 
 #### routes.rb
